@@ -1,0 +1,6 @@
+.idea
+nbproject
+out
+build.xml
+manifest.mf
+*/._.DS_Store
