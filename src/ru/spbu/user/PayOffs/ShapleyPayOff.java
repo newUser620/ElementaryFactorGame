@@ -3,21 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ru.spbu.strukov.PayOffs;
+package ru.spbu.user.PayOffs;
 
 import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.List;
-import ru.spbu.strukov.CalculateIncome;
-import ru.spbu.strukov.Coalition;
-import ru.spbu.strukov.Gamer;
-import ru.spbu.strukov.Permutations.PermutationGenerator;
-import ru.spbu.strukov.Permutations.Permutations;
+import ru.spbu.user.CalculateIncome;
+import ru.spbu.user.Coalition;
+import ru.spbu.user.Gamer;
+import ru.spbu.user.Permutations.PermutationGenerator;
+import ru.spbu.user.Permutations.Permutations;
 
-/**
- *
- * @author Dell
- */
 public class ShapleyPayOff implements PayOff {
 
 //    ArrayList<Gamer> copyGamers = new ArrayList<>();

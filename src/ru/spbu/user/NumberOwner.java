@@ -1,10 +1,8 @@
-package ru.spbu.strukov;
+package ru.spbu.user;
 
 /**
  * Common class for gamers and coalitions
  * Contains common fields and methods for them
- * Created on 28.11.2018 15:02:32
- * @author Alexander Mikhailovich Kovshov
  */
 public abstract class NumberOwner {//общий класс для всех игроков
     

@@ -1,16 +1,10 @@
-package ru.spbu.strukov.subsets;
+package ru.spbu.user.subsets;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * Created on 05.10.2019 16:25:01
- *
- * @author Alexander Mikhailovich Kovshov
- * @param <T>
- */
 public class Subsets<T> implements Iterable<List<T>> {
 
     private List<T> objects;

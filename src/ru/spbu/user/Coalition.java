@@ -1,12 +1,8 @@
-package ru.spbu.strukov;
+package ru.spbu.user;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-/**
- * Created on 21.11.2018 15:02:05
- * @author Alexander Mikhailovich Kovshov
- */
 public class Coalition extends NumberOwner{
     
     private static int count = 0;

@@ -3,13 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ru.spbu.strukov;
+package ru.spbu.user;
 
-/**
- *
- * @author Dell
- */
-public enum TypeOfDecision{
+public class NumberProfit {
     
-    AVERAGE, PERSONAL;
+    int coalitionNumber;
+        double pie;
+
+        NumberProfit() {
+            coalitionNumber = 0;
+            pie = 0;
+        }
+
 }

@@ -1,12 +1,8 @@
-package ru.spbu.strukov.subsets;
+package ru.spbu.user.subsets;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
-/**
- * Created on 03.10.2019 20:57:30
- * @author Alexander Mikhailovich Kovshov
- */
 public class Partitioning<T> implements Iterable<ArrayList<ArrayList<T>>> {
     
     private ArrayList<T> objects;

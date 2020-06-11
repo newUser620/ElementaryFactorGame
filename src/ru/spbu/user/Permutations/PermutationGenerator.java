@@ -3,14 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ru.spbu.strukov.Permutations;
+package ru.spbu.user.Permutations;
 
 import java.math.BigInteger;
 
-/**
- *
- * @author Dell
- */
 public final class PermutationGenerator {
 
     private int[] a;

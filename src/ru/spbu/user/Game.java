@@ -1,17 +1,11 @@
-package ru.spbu.strukov;
+package ru.spbu.user;
 
-import ru.spbu.strukov.PayOffs.PayOff;
+import ru.spbu.user.PayOffs.PayOff;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Locale;
 
-/**
- * Main class of Elementary Factor Game.
- *
- * Created on 21.11.2018 14:55:07
- *
- * @author Alexander Mikhailovich Kovshov
- */
+
 public class Game {
 
     /**

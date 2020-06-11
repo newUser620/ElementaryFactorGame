@@ -1,13 +1,9 @@
-package ru.spbu.strukov;
+package ru.spbu.user;
 
-import ru.spbu.strukov.PayOffs.*;
+import ru.spbu.user.PayOffs.*;
 import java.util.ArrayList;
-import ru.spbu.strukov.subsets.Partitioning;
+import ru.spbu.user.subsets.Partitioning;
 
-/**
- * Created on 28.09.2019 16:02:35
- * @author Alexander Mikhailovich Kovshov
- */
 public class ForTest {
     
     public static Game getGame(){
@@ -43,8 +39,9 @@ public class ForTest {
 //        return new Game(new OutProportionalPayOff(), false, 24, 28, 32, 36, 40, 42);
 //        return new Game(new OutProportionalPayOff(), true, 24, 28, 32, 36, 40, 42);
 //        return new Game(new PreProportionalExcessPayOff(), false, 24, 28, 32, 36, 40, 42);
-        return new Game(new PreProportionalExcessPayOff(), true, 24, 28, 32, 36, 40, 42);
-//        return new Game(new ShapleyPayOff(), false, 24, 28, 32, 36, 40, 42);
+//        return new Game(new PreProportionalExcessPayOff(), true, 24, 28, 32, 36, 40, 42);
+        return new Game(new ShapleyPayOff(), false, 24, 28, 32, 36, 40, 42);
+//        return new Game(100, new ShapleyPayOff(), false);
 //        return new Game(new ShapleyPayOff(), true, 24, 28, 32, 36, 40, 42);
 //        return new Game(new EqualExcessPayOff(), false, 24, 28, 32, 36, 40, 42);
 //        return new Game(new EqualExcessPayOff(), true, 24, 28, 32, 36, 40, 42);

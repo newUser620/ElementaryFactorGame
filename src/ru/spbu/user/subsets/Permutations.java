@@ -1,13 +1,9 @@
-package ru.spbu.strukov.subsets;
+package ru.spbu.user.subsets;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * Created on 06.10.2019 2:19:06
- * @author Alexander Mikhailovich Kovshov
- */
 public class Permutations<T> implements Iterable<List<T>> {
 
     private List<T> objects;

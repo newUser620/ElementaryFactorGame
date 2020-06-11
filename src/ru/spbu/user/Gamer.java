@@ -1,11 +1,7 @@
-package ru.spbu.strukov;
+package ru.spbu.user;
 
 import java.util.Locale;
 
-/**
- * Created on 21.11.2018 15:05:04
- * @author Alexander Mikhailovich Kovshov
- */
 public class Gamer extends NumberOwner{
 
     private final int ownNumber;

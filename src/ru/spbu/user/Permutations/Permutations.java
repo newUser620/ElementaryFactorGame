@@ -3,18 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ru.spbu.strukov.Permutations;
+package ru.spbu.user.Permutations;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-/**
- *
- * @author Dell
- * @param <T>
- */
 public class Permutations<T> implements Iterable<List<T>> {
 
     PermutationGenerator pGenerator;
